@@ -93,6 +93,12 @@
    width: 20%;
    margin-left: 10%;
    margin-top: 5%;
+   transition-duration: 400ms;
+
+ }
+ .nft img:hover{
+   width: 25%;
+   margin-left: 7.5%;
  }
  #opns{
   width: 300px;
@@ -191,6 +197,12 @@
      margin-top: -250px;
    }
    .nft img{
+     width: 90%;
+     margin-right: 5%;
+     margin-left: 5%;
+     margin-top: 50px;
+   }
+   .nft img:hover{
      width: 90%;
      margin-right: 5%;
      margin-left: 5%;
