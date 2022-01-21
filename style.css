@@ -377,18 +377,111 @@
      right: 2.5%;
    }
  }
- #closed{
+ /* telephone/tablette */
+ #wel{
    visibility: hidden;
  }
- @media (Max-width: 1300px){
-   body{
-     background-color: #fff;
-     visibility: hidden;
-   }
-   #closed{
-     position: absolute;
-     width: 100%;
-     visibility: visible;
-     top: 0px;
-   }
+ #desc{
+   visibility: hidden;
  }
+ #opns2{
+   visibility: hidden;
+
+ }
+ #pub2{
+   visibility: hidden;
+
+ }
+ #pl2{
+   visibility: hidden;
+ }
+ #pp2{
+   position: absolute;
+   top: -1000px;
+   visibility: hidden;
+  }
+  #insta2{
+    visibility: hidden;
+    position: absolute;
+    top: -1000px;
+    right: 5px;
+
+  }
+  #disc2{
+    position: absolute;
+    visibility: hidden;
+    right: 50px;
+    top: -500px;
+  }
+ @media (Max-width: 1300px){
+   .page{
+     display:none;
+   }
+   #pp2{
+     visibility: visible;
+     width: 50px;
+     position: absolute;
+     left: 10px;
+     top: 7px;
+   }
+   #wel{
+     visibility: visible;
+     font-family:FreeMono, monospace	;
+     font-size: 50px;
+     position: relative;
+     margin-top: 60px;
+     text-align: center;
+     cursor: default;
+   }
+   #desc{
+     position: relative;
+     visibility: visible;
+     font-family:monospace;
+     text-align: center;
+     margin-top: 30px;
+     cursor: default;
+   }
+   #opns2{
+     visibility: visible;
+     width: 300px;
+       height: 50px;
+     font-size: 1.7rem;
+     font-family: arial, sans-serif;
+     font-weight: 700;
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50px;
+     color: #000;
+     z-index: 0;
+     background: #CBBAED;
+     overflow: hidden;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     outline: none;
+     border-radius: 40px;
+   }
+   #pub2{
+     visibility: visible;
+     position: relative;
+     margin-top: 50px;
+     width: 60%;
+     border-radius: 5px;
+     margin-left: 20%;
+     margin-right: 20%;
+   }
+#insta2{
+  visibility: visible;
+  width: 70px;
+  right: 5px;
+  left: auto;
+  top: 15px;
+}
+#disc2{
+  visibility: visible;
+  width: 40px;
+  right: 100px;
+  top: 24px;
+}
