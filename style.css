@@ -455,16 +455,37 @@
      display:none;
    }
    #g{
-     top: 4500px;
+     top: 3500px;
+     left: 100px;
    }
    #un{
-     top: 4600px;
+     top: 3600px;
+     left: 95px;
    }
    #a{
-     top: 4500px;
+     top: 3750px;
+     right: 100px;
    }
    #ar{
-     top: 4600px;
+     top: 3850px;
+     right: 50px;
+   }
+   #h{
+     top: 4000px;
+     left: 130px;
+   }
+   #hr{
+     top: 4100px;
+     left: 80px;
+
+   }
+   #s{
+     top: 4350px;
+     right: 170px;
+   }
+   #sr{
+     top: 4450px;
+     right: 125px;
    }
    #ho{
      right:34%;
@@ -490,4 +511,5 @@
    #story{
      top: 2700px;
    }
+
  }
