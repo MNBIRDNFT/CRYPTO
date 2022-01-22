@@ -474,7 +474,7 @@
      visibility: visible;
      font-family:monospace;
      text-align: center;
-     margin-top: 80px;
+     top: -30px;
      cursor: default;
      animation-name: op;
      animation-duration: 0.5s;
