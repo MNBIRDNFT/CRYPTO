@@ -308,6 +308,12 @@
    .ban #ctg{
      left:200px;
    }
+   #cltt{
+     top: 1150px;
+   }
+   #expl{
+     top: 1250px;
+   }
    #ho{
      right:22%;
    }
@@ -357,6 +363,13 @@
    }
    .ban #ctg{
      left: 150px;
+   }
+   #expl{
+     width: 30%;
+     top: 1150px;
+      }
+   #cltt{
+     top: 1050px;
    }
    #ho{
      right:26%;
@@ -413,7 +426,17 @@
     right: 50px;
     top: -500px;
   }
- @media (Max-width: 1300px){
+  @media (Max-width: 1300px){
+    #expl{
+      width: 30%;
+      top: 1100px;
+       }
+    #cltt{
+      top: 1000px;
+    }
+  }
+
+ @media (Max-width: 1200px){
    .page{
      display:none;
    }
@@ -427,19 +450,37 @@
    #wel{
      visibility: visible;
      font-family:FreeMono, monospace	;
-     font-size: 50px;
+     font-size: 150px;
      position: relative;
-     margin-top: 60px;
+     line-height: center;
      text-align: center;
      cursor: default;
+     animation-name: op;
+     animation-duration: 0.5s;
+     opacity: 0;
+     animation-fill-mode: forwards;
+     animation-delay: 0.5s;
+   }
+   @keyframes op {
+     from{
+       opacity: 0;
+     }
+     to{
+       opacity: 1;
+     }
    }
    #desc{
      position: relative;
      visibility: visible;
      font-family:monospace;
      text-align: center;
-     margin-top: 30px;
+     margin-top: 80px;
      cursor: default;
+     animation-name: op;
+     animation-duration: 0.5s;
+     opacity: 0;
+     animation-fill-mode: forwards;
+     animation-delay: 1.5s;
    }
    #opns2{
      visibility: visible;
@@ -451,26 +492,38 @@
      position: relative;
      margin-left: auto;
      margin-right: auto;
-     margin-top: 50px;
+     margin-top: 80px;
      color: #000;
      z-index: 0;
-     background: #CBBAED;
+     background: #F9E0D9;
      overflow: hidden;
      text-decoration: none;
      display: flex;
      align-items: center;
      justify-content: center;
      outline: none;
-     border-radius: 40px;
+     border-radius: 10px;
+     animation-name: op;
+     animation-duration: 0.5s;
+     opacity: 0;
+     animation-fill-mode: forwards;
+     animation-delay: 2s;
    }
    #pub2{
      visibility: visible;
      position: relative;
-     margin-top: 50px;
+     margin-top: 80px;
      width: 60%;
-     border-radius: 5px;
+     border-radius: 30px;
      margin-left: 20%;
      margin-right: 20%;
+     animation-name: trnt;
+     animation-duration: 0.5s;
+     animation-name: op;
+     animation-duration: 0.5s;
+     opacity: 0;
+     animation-fill-mode: forwards;
+     animation-delay: 2.5s;
    }
 #insta2{
   visibility: visible;
