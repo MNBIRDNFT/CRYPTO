@@ -243,7 +243,6 @@
    margin-left: 10%;
    margin-top: 5%;
    transition-duration: 400ms;
-
  }
  .nft img:hover{
    width: 25%;
@@ -401,10 +400,6 @@
    visibility: hidden;
 
  }
- #pub2{
-   visibility: hidden;
-
- }
  #pl2{
    visibility: hidden;
  }
@@ -426,6 +421,26 @@
     right: 50px;
     top: -500px;
   }
+  #nft2{
+    visibility: hidden;
+    position: relative;
+    margin-top: -5000px
+  }
+  #expl2{
+    visibility: hidden;
+    position: relative;
+    width: 80%;
+    margin-top: -5000px;
+    margin-left: 10%;
+  }
+  #tt{
+    visibility: hidden;
+    position: relative;
+    margin-top: -5000px;
+    font-size: 50px;
+    text-align: center;
+    font-family: vt323,monospace;
+  }
   @media (Max-width: 1300px){
     #expl{
       width: 30%;
@@ -442,10 +457,10 @@
    }
    #pp2{
      visibility: visible;
-     width: 50px;
+     width: 70px;
      position: absolute;
-     left: 10px;
-     top: 7px;
+     left: 30px;
+     top: 25px;
    }
    #wel{
      visibility: visible;
@@ -484,9 +499,9 @@
    }
    #opns2{
      visibility: visible;
-     width: 300px;
-       height: 50px;
-     font-size: 1.7rem;
+     width: 400px;
+     height: 75px;
+     font-size: 2.3rem;
      font-family: arial, sans-serif;
      font-weight: 700;
      position: relative;
@@ -509,32 +524,50 @@
      animation-fill-mode: forwards;
      animation-delay: 2s;
    }
-   #pub2{
-     visibility: visible;
-     position: relative;
-     margin-top: 80px;
-     width: 60%;
-     border-radius: 30px;
-     margin-left: 20%;
-     margin-right: 20%;
-     animation-name: trnt;
-     animation-duration: 0.5s;
-     animation-name: op;
-     animation-duration: 0.5s;
-     opacity: 0;
-     animation-fill-mode: forwards;
-     animation-delay: 2.5s;
-   }
 #insta2{
   visibility: visible;
-  width: 70px;
+  width: 90px;
   right: 5px;
   left: auto;
-  top: 15px;
+  top: 41px;
 }
 #disc2{
   visibility: visible;
-  width: 40px;
+  width: 60px;
   right: 100px;
-  top: 24px;
+  top: 50px;
+}
+#expl2{
+  visibility: visible;
+  margin-top: 50px;
+  font-family:monospace;
+  animation-name: op;
+  animation-duration: 0.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+.nft2 img{
+  visibility: visible;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 80px;
+  transition-duration: 400ms;
+  border-radius: 20px;
+  animation-name: op;
+  animation-duration: 0.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-delay: 3.5s;
+}
+#tt{
+  visibility: visible;
+  margin-top: 80px;
+  color: #fff;
+  font-family: Georgia, serif	;
+  animation-name: op;
+  animation-duration: 0.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-delay: 2.5s;
 }
