@@ -457,7 +457,7 @@
    }
    #pp2{
      visibility: visible;
-     width: 70px;
+     width: 90px;
      position: absolute;
      left: 30px;
      top: 25px;
@@ -526,16 +526,16 @@
    }
 #insta2{
   visibility: visible;
-  width: 90px;
+  width: 130px;
   right: 5px;
   left: auto;
-  top: 41px;
+  top: 43px;
 }
 #disc2{
   visibility: visible;
-  width: 60px;
-  right: 100px;
-  top: 50px;
+  width: 80px;
+  right: 150px;
+  top: 57px;
 }
 #expl2{
   visibility: visible;
