@@ -444,7 +444,7 @@
     visibility: hidden;
     margin-top: -5000px;
     text-align: center;
-    font-size: 50px;
+    font-size: 80px;
   }
   @media (Max-width: 1300px){
     #expl{
