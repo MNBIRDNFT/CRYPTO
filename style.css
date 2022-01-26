@@ -439,7 +439,12 @@
     margin-top: -5000px;
     font-size: 50px;
     text-align: center;
-    font-family: vt323,monospace;
+  }
+  #cl{
+    visibility: hidden;
+    margin-top: -5000px;
+    text-align: center;
+    font-size: 50px;
   }
   @media (Max-width: 1300px){
     #expl{
@@ -450,7 +455,6 @@
       top: 1000px;
     }
   }
-
  @media (Max-width: 1200px){
    .page{
      display:none;
@@ -460,7 +464,7 @@
      width: 90px;
      position: absolute;
      left: 30px;
-     top: 25px;
+     top: 15px;
    }
    #wel{
      visibility: visible;
@@ -499,15 +503,15 @@
    }
    #opns2{
      visibility: visible;
-     width: 400px;
-     height: 75px;
-     font-size: 2.3rem;
+     width: 500px;
+     height: 90px;
+     font-size: 3rem;
      font-family: arial, sans-serif;
      font-weight: 700;
      position: relative;
      margin-left: auto;
      margin-right: auto;
-     margin-top: 80px;
+     margin-top: 60px;
      color: #000;
      z-index: 0;
      background: #F9E0D9;
@@ -529,13 +533,13 @@
   width: 130px;
   right: 5px;
   left: auto;
-  top: 43px;
+  top: 31px;
 }
 #disc2{
   visibility: visible;
   width: 80px;
   right: 150px;
-  top: 57px;
+  top: 45px;
 }
 #expl2{
   visibility: visible;
@@ -551,7 +555,7 @@
   visibility: visible;
   width: 80%;
   margin-left: 10%;
-  margin-top: 80px;
+  margin-top: 50px;
   transition-duration: 400ms;
   border-radius: 20px;
   animation-name: op;
@@ -570,4 +574,15 @@
   opacity: 0;
   animation-fill-mode: forwards;
   animation-delay: 2.5s;
+}
+#cl{
+  visibility: visible;
+  margin-top: 80px;
+  color: #fff;
+  font-family: Georgia, serif	;
+  animation-name: op;
+  animation-duration: 0.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
 }
