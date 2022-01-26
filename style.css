@@ -393,9 +393,6 @@
  #wel{
    visibility: hidden;
  }
- #desc{
-   visibility: hidden;
- }
  #opns2{
    visibility: hidden;
 
@@ -483,6 +480,7 @@
      opacity: 0;
      animation-fill-mode: forwards;
      animation-delay: 0.5s;
+     cursor: default;
    }
    @keyframes op {
      from{
@@ -491,19 +489,6 @@
      to{
        opacity: 1;
      }
-   }
-   #desc{
-     position: relative;
-     visibility: visible;
-     font-family:monospace;
-     text-align: center;
-     margin-top:-400px;
-     cursor: default;
-     animation-name: op;
-     animation-duration: 0.5s;
-     opacity: 0;
-     animation-fill-mode: forwards;
-     animation-delay: 1.5s;
    }
    #opns2{
      visibility: visible;
@@ -515,7 +500,7 @@
      position: relative;
      margin-left: auto;
      margin-right: auto;
-     margin-top: 60px;
+     margin-top: -370px;
      color: #000;
      z-index: 0;
      background: #F9E0D9;
@@ -530,7 +515,7 @@
      animation-duration: 0.5s;
      opacity: 0;
      animation-fill-mode: forwards;
-     animation-delay: 2s;
+     animation-delay: 1.5s;
    }
 #insta2{
   visibility: visible;
@@ -553,7 +538,8 @@
   animation-duration: 0.5s;
   opacity: 0;
   animation-fill-mode: forwards;
-  animation-delay: 3s;
+  animation-delay: 2.5s;
+  cursor: default;
 }
 .nft2 img{
   visibility: visible;
@@ -577,7 +563,8 @@
   animation-duration: 0.5s;
   opacity: 0;
   animation-fill-mode: forwards;
-  animation-delay: 2.5s;
+  animation-delay: 2s;
+  cursor: default;
 }
 #cl{
   visibility: visible;
@@ -589,4 +576,5 @@
   opacity: 0;
   animation-fill-mode: forwards;
   animation-delay: 3s;
+  cursor: default;
 }
