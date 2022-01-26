@@ -446,6 +446,10 @@
     text-align: center;
     font-size: 80px;
   }
+  .tit{
+    margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+  }
   @media (Max-width: 1300px){
     #expl{
       width: 30%;
@@ -494,7 +498,7 @@
      visibility: visible;
      font-family:monospace;
      text-align: center;
-     top: -30px;
+     margin-top:-400px;
      cursor: default;
      animation-name: op;
      animation-duration: 0.5s;
