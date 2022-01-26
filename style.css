@@ -467,6 +467,7 @@
      top: 15px;
    }
    #wel{
+     margin-top: 200px;
      visibility: visible;
      font-family:FreeMono, monospace	;
      font-size: 150px;
@@ -503,9 +504,9 @@
    }
    #opns2{
      visibility: visible;
-     width: 500px;
-     height: 90px;
-     font-size: 3rem;
+     width: 600px;
+     height: 130px;
+     font-size: 3.5rem;
      font-family: arial, sans-serif;
      font-weight: 700;
      position: relative;
