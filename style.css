@@ -443,10 +443,6 @@
     text-align: center;
     font-size: 80px;
   }
-  .tit{
-    margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
-    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
-  }
   @media (Max-width: 1300px){
     #expl{
       width: 30%;
@@ -472,7 +468,7 @@
      font-family:FreeMono, monospace	;
      font-size: 150px;
      position: relative;
-     margin-top: 500px;
+     margin-top: 80px;
      text-align: center;
      cursor: default;
      animation-name: op;
@@ -500,7 +496,7 @@
      position: relative;
      margin-left: auto;
      margin-right: auto;
-     margin-top: -370px;
+     margin-top: 50px;
      color: #000;
      z-index: 0;
      background: #F9E0D9;
